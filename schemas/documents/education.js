@@ -41,7 +41,7 @@ export default {
       {
         name: 'body',
         title: 'Body',
-        type: 'projectPortableText'
+        type: 'portableText'
       }
     ],
     preview: {
