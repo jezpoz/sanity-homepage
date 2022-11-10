@@ -16,10 +16,9 @@ import page from './documents/page'
 // Object types
 import Link from './objects/link';
 import Section from './objects/section';
-import bioPortableText from './objects/bioPortableText'
 import figure from './objects/figure'
-import projectPortableText from './objects/projectPortableText'
 import simplePortableText from './objects/simplePortableText'
+import portableText from './objects/portableText'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -32,9 +31,8 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     Link,
     Section,
-    bioPortableText,
     figure,
-    projectPortableText,
+    portableText,
     simplePortableText,
     // The following are document types which will appear
     // in the studio.
