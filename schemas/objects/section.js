@@ -10,7 +10,7 @@ export default {
     },
     {
       name: 'description',
-      type: 'projectPortableText',
+      type: 'portableText',
       title: 'Description'
     },
     {
