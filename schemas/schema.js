@@ -11,8 +11,11 @@ import project from './documents/project'
 import settings from './documents/settings'
 import experience from './documents/experience'
 import education from './documents/education'
+import page from './documents/page'
 
 // Object types
+import Link from './objects/link';
+import Section from './objects/section';
 import bioPortableText from './objects/bioPortableText'
 import figure from './objects/figure'
 import projectPortableText from './objects/projectPortableText'
@@ -27,12 +30,15 @@ export default createSchema({
   types: schemaTypes.concat([
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
+    Link,
+    Section,
     bioPortableText,
     figure,
     projectPortableText,
     simplePortableText,
     // The following are document types which will appear
     // in the studio.
+    page,
     category,
     profile,
     project,
